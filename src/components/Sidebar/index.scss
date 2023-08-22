@@ -6,20 +6,21 @@
     top: 0;
     z-index: 3;
     min-height: 500px;
-}
-.logo{
-    display: block;
-    padding: 8px 0;
 
-    img {
+    .logo{
         display: block;
-        margin: 8px auto;
-        width: 24px;
-        height: auto;
-
-
-        &.sub-logo {
-            width: 50px;
+        padding: 8px 0;
+        
+        img {
+            display: block;
+            margin: 8px auto;
+            width: 24px;
+            height: auto;
+            
+            
+            &.sub-logo {
+                width: 50px;
+            }
         }
     }
 
@@ -88,6 +89,28 @@ nav {
     a.active{
         svg {
             color: #ffd700;
+        }
+    }
+}
+ul {
+    position: absolute;
+    bottom: 20px;
+    display: block;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+
+    li{
+        a{
+            padding: 7px;
+            display: block;
+            font-size: 15px;
+            line-height: 16px;
+
+            &:hover svg {
+                color: #ffd700;
+            }
         }
     }
 }
