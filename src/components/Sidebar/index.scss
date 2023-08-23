@@ -31,6 +31,7 @@ nav {
     height: 210px;
     top: 50%;
     margin-top: -120px;
+    width: 100%;
 
     a {
         font-size: 22px;
@@ -42,7 +43,7 @@ nav {
         text-decoration: none;
 
         i {
-            transition: all .3s ease-out;
+            transition: all 0.3s ease-out;
         }
 
         &:hover {
@@ -95,6 +96,7 @@ nav {
 ul {
     position: absolute;
     bottom: 20px;
+    width: 100%;
     display: block;
     list-style: none;
     padding: 0;
@@ -103,16 +105,16 @@ ul {
 
     li{
         a{
-            padding: 7px;
+            padding: 7px 0;
             display: block;
             font-size: 15px;
             line-height: 16px;
+            color: #4d4d4e;
 
             &:hover svg {
                 color: #ffd700;
+                }
             }
         }
     }
-}
-
 }
