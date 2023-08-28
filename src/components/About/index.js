@@ -34,9 +34,10 @@ const About = () => {
             established tech company with the opportunity to work with the latest
             technologies on challenging and diverse projects.</p>
             <p>In the meantime I love to pass my time by building fun coding projects and pair-programming with friends.</p>
-            <p>If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!</p>
+            <p> If I need to describe myself in a couple sentences I would say that my life is centered around my friends and family. 
+            I love making deep meaningful connections with people and helping people better themselves. I would not be where I am with the support of 
+            all of those around me. My hobbies include watching anime, working out, eating good food, and findng cool cofee shops. 
+            </p>
         </div>
         <div className='stage-cube-cont'>
             <div className='cubespinner'>
